@@ -1,20 +1,32 @@
 .myTable {
-    border-collapse: collapse;
-    display: flex;
-    flex-direction: column;
-    font-family: arial, sans-serif;
-    width: 100%;
+  border-collapse: collapse;
+  display: flex;
+  flex-direction: column;
+  font-family: arial, sans-serif;
+  width: 100%;
 }
 
 .row {
-    display: flex;
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
+  display: flex;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
 }
 
 .item {
-    display: flex;
-    flex: 1 1 0px;
-    flex-direction: column;
+  display: flex;
+  flex: 1 1 0px;
+  flex-direction: column;
+}
+
+.update {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  display: flex;
+  align-items: flex-end;
+  font-size: xx-small;
+  color: blue;
 }
